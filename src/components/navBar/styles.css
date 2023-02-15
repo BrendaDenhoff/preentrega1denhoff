@@ -5,15 +5,20 @@
 
 .nav {
     margin:auto;
-    width:500px;
+    max-width:100vw;
     font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul, ol {
     list-style:none;
 }
 
-.nav-list > li {
+.nav-list {
+    display: flex;
+}
+.nav-list-li {
     float:left;
 }
 
@@ -21,7 +26,7 @@ ul, ol {
     background-color:burlywood;
     color:#fff;
     text-decoration:none;
-    padding:10px 12px;
+    padding:10px 15px;
     display:block;
 }
 

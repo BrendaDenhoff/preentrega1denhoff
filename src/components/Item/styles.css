@@ -1,0 +1,34 @@
+.item {
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 20px;
+    width: 320px;
+    height: 400px;
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 11px 10px 29px -3px rgba(0,0,0,0.75);
+    box-shadow: 11px 10px 29px -3px rgba(0,0,0,0.75);
+    box-shadow: 11px 10px 29px -3px rgba(0,0,0,0.75); 
+}
+
+.product-img {
+    width: 100%;
+    height: 16em;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+  
+.card-product > h5, h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 7px;
+}
+  
+button {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+    
+

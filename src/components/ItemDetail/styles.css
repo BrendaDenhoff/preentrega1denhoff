@@ -1,0 +1,19 @@
+.item-container {
+    width: 800px;
+    height: 100vh;
+    margin: 0 50px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardbody {
+    margin-top: 100px;
+}

@@ -1,11 +1,10 @@
-import React from "react";
-import "./styles.css"
-import carrito from "./carrito.png"
+import "./styles.css";
+import { BsBag } from "react-icons/bs";
 
 
-const CartWidget = () => <div className="cartWidget">
-    <img src={carrito}></img>
-    <h4 className="cartWidget-numero">1</h4>
+const CartWidget = () =>  <div className="bag-icon">
+  <BsBag  className="bag-icon-i"/>
+  <h4 className="cartWidget-numero">1</h4>
 </div>
 
 export default CartWidget;
